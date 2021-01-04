@@ -68,7 +68,7 @@ So the application is not yet accessible from internet.
 What you should do now is to make this application accessible from internet!
 By chance, the demo container is having port `8080` opened:
 ```
-docker port demo`
+docker port demo
 ```
 will give you:
 ```
