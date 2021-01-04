@@ -36,7 +36,8 @@ apt-get install -y \
     gnupg-agent \
     software-properties-common \
     git \
-    sshpass
+    sshpass \
+    tmux
 #    nginx \
 
 title.print "Install docker"
@@ -49,7 +50,7 @@ add-apt-repository \
    stable"
 
 apt-get update
-apt-get install docker-ce docker-ce-cli containerd.io
+apt-get install -y docker-ce docker-ce-cli containerd.io
 
 title.print "Clone ansible-training"
 

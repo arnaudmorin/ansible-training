@@ -27,6 +27,15 @@ Check if ansible is correctly installed (and the version you have):
 ```
 ansible --version
 ```
+```
+ansible 2.7.7
+  config file = /etc/ansible/ansible.cfg
+  configured module search path = ['/root/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3/dist-packages/ansible
+  executable location = /usr/bin/ansible
+  python version = 3.7.3 (default, Jul 25 2020, 13:03:44) [GCC 8.3.0]
+
+```
 
 ## Ad-hoc ping
 Use the builtin `ping` module to do your first ad-hoc command:
