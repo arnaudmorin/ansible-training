@@ -13,10 +13,10 @@ Create a file `myplaybook.yml` with the following content:
 - hosts: demo
   gather_facts: yes
   tasks:
-    - name: Install the git package
-      apt: 
-        name: git
-        state: present
+  - name: Install the git package
+    apt: 
+      name: git
+      state: present
 ```
 Here is the explanation of this playbook:
 
@@ -42,14 +42,14 @@ Add a task to clone a flask application from github: `https://github.com/arnaudm
 - hosts: demo
   gather_facts: yes
   tasks:
-    - name: Install the git package
-      apt: 
-        name: git
-        update_cache: yes 
-        state: present
-    - name: Clone my flask application
-      git: ...   # complete by yourself
-		 # see https://docs.ansible.com/ansible/latest/collections/ansible/builtin/git_module.html
+  - name: Install the git package
+    apt: 
+      name: git
+      update_cache: yes 
+      state: present
+  - name: Clone my flask application
+    git: ...   # complete by yourself
+               # see https://docs.ansible.com/ansible/latest/collections/ansible/builtin/git_module.html
 ```
 
 ### Step 3
