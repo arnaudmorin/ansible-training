@@ -19,6 +19,7 @@ Create a file `myplaybook.yml` with the following content:
         state: present
 ```
 Here is the explanation of this playbook:
+
 `- hosts: demo` is here to tell ansible that this part of the playbook should be applied on server `demo`
 This playbook is very simple and apply only on `demo`, but you will often have playbooks that apply on multiple hosts. Ansible is great tool to orchestrate installation.
 
