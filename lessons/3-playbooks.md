@@ -82,5 +82,5 @@ Here are some tips:
 For `localhost`, add a least 2 tasks:
   * install nginx
   * configure nginx as a proxy (port 80 --> 8080) (google is your friend)
-* Bonus: using some ansible variables add a debug task to your playbook to print the URL of your website.
-
+* Bonus: How can we restart nginx only after we changed it's configuration? (tip: ansibles handlers)
+* Bonus2: using some ansible variables add a debug task to your playbook to print the URL of your website.
